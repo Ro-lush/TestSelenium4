@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa477a1f-ed94-4d20-8ca2-2429d8a4923a" name="Changes" comment="25.10">
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI_TEST/UI_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_TEST/Test_UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_TEST/Test_UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_TEST/Test_UI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -199,7 +202,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698232072540</updated>
       <workItem from="1698232073739" duration="6282000" />
-      <workItem from="1698238375646" duration="415000" />
+      <workItem from="1698238375646" duration="818000" />
     </task>
     <task id="LOCAL-00001" summary="25.10">
       <created>1698238525971</created>
@@ -208,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698238525971</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="25.10">
+      <created>1698238860616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698238860616</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +226,17 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -1,4 +1,7 @@
 package UI_TEST;
+/**
+ * Класс для запуска тестов
+ */
 
 import Base.BaseCore;
 import Base.ConfigRead;
