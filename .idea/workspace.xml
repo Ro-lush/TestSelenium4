@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa477a1f-ed94-4d20-8ca2-2429d8a4923a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/BaseCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/ConfigRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UI_TEST/UI_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/conf.conf" afterDir="false" />
+    <list default="true" id="aa477a1f-ed94-4d20-8ca2-2429d8a4923a" name="Changes" comment="25.10">
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_TEST/UI_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_TEST/Test_UI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,24 +62,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.UI_Test.getURL">
+}]]></component>
+  <component name="RunManager" selected="JUnit.Test_UI">
     <configuration name="Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -165,7 +149,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UI_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_UI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestSelenium4.test" />
       <extension name="coverage">
         <pattern>
@@ -174,13 +158,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UI_TEST" />
-      <option name="MAIN_CLASS_NAME" value="UI_TEST.UI_Test" />
+      <option name="MAIN_CLASS_NAME" value="UI_TEST.Test_UI" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UI_Test.getURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_UI.getURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestSelenium4.test" />
       <extension name="coverage">
         <pattern>
@@ -189,7 +173,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UI_TEST" />
-      <option name="MAIN_CLASS_NAME" value="UI_TEST.UI_Test" />
+      <option name="MAIN_CLASS_NAME" value="UI_TEST.Test_UI" />
       <option name="METHOD_NAME" value="getURL" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -198,8 +182,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UI_Test" />
-        <item itemvalue="JUnit.UI_Test.getURL" />
+        <item itemvalue="JUnit.Test_UI" />
+        <item itemvalue="JUnit.Test_UI.getURL" />
         <item itemvalue="Gradle.UI_Test" />
         <item itemvalue="Gradle.Test" />
         <item itemvalue="Gradle.Test.getURL" />
@@ -215,7 +199,16 @@
       <option name="presentableId" value="Default" />
       <updated>1698232072540</updated>
       <workItem from="1698232073739" duration="6282000" />
+      <workItem from="1698238375646" duration="415000" />
     </task>
+    <task id="LOCAL-00001" summary="25.10">
+      <created>1698238525971</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698238525971</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +216,33 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="25.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="25.10" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

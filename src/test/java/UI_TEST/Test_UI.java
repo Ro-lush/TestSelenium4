@@ -4,7 +4,7 @@ import Base.BaseCore;
 import Base.ConfigRead;
 import org.junit.jupiter.api.Test;
 
-public class UI_Test extends BaseCore {
+public class Test_UI extends BaseCore {
 
 @Test
     public void getURL(){
