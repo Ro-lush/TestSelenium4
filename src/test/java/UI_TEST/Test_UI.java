@@ -8,11 +8,9 @@ import Base.ConfigRead;
 import org.junit.jupiter.api.Test;
 
 public class Test_UI extends BaseCore {
-
+PageGoogleSearch pgs = new PageGoogleSearch(driver,wait);
 @Test
-    public void getURL(){
-
-    driver.get(ConfigRead.URL);
-
+    public void googleTest(){
+    pgs.getURL(ConfigRead.URL);
 }
 }
