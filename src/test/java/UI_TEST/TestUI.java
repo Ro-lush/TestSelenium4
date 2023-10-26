@@ -15,6 +15,10 @@ PageGoogleSearch pgs = new PageGoogleSearch(driver,wait);
     pgs.getURL(ConfigRead.URL);
     pgs.setSearch(ConfigRead.SEARCH);
     pgs.clickButton();
-    Assertions.assertEquals(driver.getTitle(),"калькулятор - Поиск в Google");
+    //Тест пройдён
+    Assertions.assertEquals(driver.getTitle(),"калькулятор - Поиск в Google","ТЕСТ ПРОЙДЕН!!!") ;
+
+
+
 }
 }
