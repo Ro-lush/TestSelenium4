@@ -14,8 +14,8 @@ import java.time.Duration;
 
 abstract public class BaseCore {
 
-    public  WebDriver driver;
-    public  WebDriverWait wait;
+    public static   WebDriver driver;
+    public static   WebDriverWait wait;
 
 @BeforeEach // метод который вызывает все настройки с драйвером до запуска тестов
     public void startDriver(){
