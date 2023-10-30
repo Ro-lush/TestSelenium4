@@ -16,14 +16,14 @@ public class PageGoogleSearch extends BaseCore {
 
     public void setSearch(String name){
         driver.findElement(
-                By.xpath("//textarea[@jsname=\"yZiJbe\"]")
-        ).sendKeys(name);
+                By.xpath("//textarea[@jsname=\"yZiJbe\"]"))
+                .sendKeys(name);
     }
 
     public void clickButton(){
         driver.findElement(
-                By.xpath("//input[@class=\"gNO89b\"]")
-        ).click();
+                By.xpath("//input[@class=\"gNO89b\"]"))
+                .click();
     }
 
 }

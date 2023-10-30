@@ -18,5 +18,6 @@ public interface ConfigRead {
    String CROME_DRIVER_PATH = config.getString("chromeDriverPath");
    String SEARCH = config.getString("search");
    String PASSED = config.getString("passed");
+   String URL1C = config.getString("url1c");
 
 }
