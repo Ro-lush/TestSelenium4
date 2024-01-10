@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa477a1f-ed94-4d20-8ca2-2429d8a4923a" name="Changes" comment="26.10 15:34">
-      <change afterPath="$PROJECT_DIR$/src/test/java/UI_TEST/Page1C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="aa477a1f-ed94-4d20-8ca2-2429d8a4923a" name="Changes" comment="30.10 проверка чекбокс и поля">
+      <change afterPath="$PROJECT_DIR$/allure-results/46c56a61-aa73-47bf-94f6-1686acd90870-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/57b31f9c-08e1-4bdf-9c4d-9f13f9d279cf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5fbf3867-4622-405e-bad7-cf7c26dfe331-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/71151b24-c71d-4b48-9877-eb6ab3d77d67-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/855ca973-d78b-4ced-b68f-0e7ecc5c9fec-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9e689805-9602-4603-80f0-13335a18e42f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c7b6e27a-ca4c-4df3-888a-23882621636e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d3e6acd5-3aaa-4251-9082-d6427051f8d4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/db24b687-4260-4d1b-8e44-bbc6742ed629-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e178d067-fac3-46ca-ae4e-3326b0f3d555-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e44c7c97-65f2-43c7-bdbb-d9b74087483e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f0ccef06-18ff-44d1-b748-f7b7a347cbd0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/Pets/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/TestAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/ConfigRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/ConfigRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI_TEST/PageGoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_TEST/PageGoogleSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI_TEST/TestUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_TEST/TestUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/conf.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/conf.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +69,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XFkAGEzsIAq7kEzlw1aG4WKLuu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -76,7 +87,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
@@ -88,7 +99,7 @@
       <recent name="$PROJECT_DIR$/build" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestUI.OneC">
+  <component name="RunManager" selected="JUnit.TestAPI.setPetsCategory">
     <configuration name="TestSelenium4 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -133,17 +144,18 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestUI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAPI.setPetsCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestSelenium4.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UI_TEST.*" />
+          <option name="PATTERN" value="API.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UI_TEST" />
-      <option name="MAIN_CLASS_NAME" value="UI_TEST.TestUI" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="API" />
+      <option name="MAIN_CLASS_NAME" value="API.TestAPI" />
+      <option name="METHOD_NAME" value="setPetsCategory" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAPI.setPetsCategory" />
         <item itemvalue="JUnit.TestUI.OneC" />
         <item itemvalue="Gradle.TestSelenium4 [test]" />
         <item itemvalue="JUnit.TestUI.googleTest" />
         <item itemvalue="Gradle.TestUI" />
-        <item itemvalue="JUnit.TestUI" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +213,15 @@
       <workItem from="1698232073739" duration="6282000" />
       <workItem from="1698238375646" duration="818000" />
       <workItem from="1698343627994" duration="1602000" />
-      <workItem from="1698689035274" duration="3423000" />
+      <workItem from="1698689035274" duration="3497000" />
+      <workItem from="1698780118131" duration="17000" />
+      <workItem from="1699475717096" duration="138000" />
+      <workItem from="1701284069662" duration="105000" />
+      <workItem from="1701890224211" duration="804000" />
+      <workItem from="1702464136137" duration="473000" />
+      <workItem from="1702641833548" duration="60000" />
+      <workItem from="1704825398866" duration="3043000" />
+      <workItem from="1704828683260" duration="478000" />
     </task>
     <task id="LOCAL-00001" summary="25.10">
       <created>1698238525971</created>
@@ -252,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698318463806</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="30.10 проверка чекбокс и поля">
+      <created>1698692506672</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698692506672</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,9 +323,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="25.10" />
     <MESSAGE value="26.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="26.10" />
+    <MESSAGE value="30.10 проверка чекбокс и поля" />
+    <option name="LAST_COMMIT_MESSAGE" value="30.10 проверка чекбокс и поля" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
